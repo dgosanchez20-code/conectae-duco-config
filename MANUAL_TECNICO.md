@@ -70,6 +70,7 @@ graph TD
     I -- "200 OK" --> J["Sincronización Exitosa / Registro de Log"]
     I -- "401 Unauthorized" --> K["Error: Credenciales inválidas"]
     I -- "500 / Otro" --> L["Error de Servidor / Reintento"]
+```markdown
 
 ### Gestión de Variables de Entorno (.env)
 El sistema utiliza el estándar de segregación de secretos para no exponer credenciales sensibles dentro del control de versiones.
